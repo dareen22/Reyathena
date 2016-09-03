@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block content %}
+<!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12" style= 'margin-top: 150px'>
+                <h1 class="page-header">
+                    <font size="6" color="#8B9F3E">PROFILE</font>
+                </h1>
+            </div>     
+        </div>
+    
+       <a href="/athlete_list/1/"><button>Back</button> </a>   
+
+        
+        <p>Name: {{athlete.name}}</p>
+        <p>Gender: {{athlete.gender}}</p> 
+        <p>Level: {{athlete.level}}</p> 
+        <p>Age: {{athlete.age}}</p>
+        <p>Budget: {{athlete.budget}}</p>
+        <p>Description: {{athlete.description}}</p>
+        <p>Sport: {{athlete.type}}</p> 
+        <p>More: {{athlete.link}} </p>
+        <p>Image: <img src='{{athlete.image.url}}'></p>
+        
+{% endblock %}

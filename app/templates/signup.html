@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+
+  
+    {% csrf_token %}
+
+    {% crispy form %}
+    
+
+    {% if user.is_authenticated %}
+
+        {{valid}}
+        
+    {% endif %}
+    
+     
+  
+  
+  
+  
+
+{% endblock %}

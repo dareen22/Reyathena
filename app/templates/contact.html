@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block content %}
+   
+       <form role="form" action="" method="post" style= 'margin-top: 200px'>
+       <font size="6" color="#8B9F3E">CONTACT US</font>
+       
+           {% csrf_token %}
+           {{ form.as_p }}
+           <button type="submit">Submit</button>
+       </form>
+
+{% endblock %}  

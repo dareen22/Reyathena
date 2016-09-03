@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>REYATHENA l CONTACT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="Reyathena/Web2/main.css" rel="stylesheet" type="text/css">
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (About.psd) -->
+<table width="1025" height="839" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td colspan="10">
+			<img src="images/About_01.png" width="1024" height="3" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="3" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="4">
+			<img src="images/About_02.png" width="396" height="147" alt=""></td>
+		<td rowspan="8"><a href="index.html"><img src="images/Logo.png" width="212" height="209" alt=""></a></td>
+		<td colspan="6">
+			<img src="images/About_04.png" width="416" height="63" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="63" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="images/About_05.png" width="266" height="40" alt=""></td>
+		<td colspan="2">
+			<img src="images/SM.png" alt="" width="120" height="40" usemap="#FPMap0Map3" border="0">
+			<map name="FPMap0Map3"><area target="_blank" href="http://www.twitter.com/reyathena" shape="rect" coords="78,-2,114,82"><area target="_blank" href="http://www.instagram.com/reyathena" shape="rect" coords="39,-2,75,82">
+			  <area target="_blank" href="http://www.snapchat.com/reyathena" shape="rect" coords="0,-1,36,83">
+	  </map></td>
+		<td rowspan="12">
+			<img src="images/About_07.png" width="30" height="772" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="40" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="7">
+			<img src="images/About_08.png" width="76" height="119" alt=""></td>
+		<td width="310" height="42" colspan="4"align="right"><table width="200" border="0">
+		  <tr>
+		    <td width="140">SIGNIN</td>
+		    <td width="50">LOGIN</td>
+	      </tr>
+	    </table></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="42" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4" rowspan="2">
+			<img src="images/About_10.png" width="310" height="6" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="2" alt=""></td>
+	</tr>
+	<tr>
+		<td width="376" height="58" colspan="2" rowspan="3"align="left" valign="middle" class="h1"><table width="370" border="0">
+		  <tr class="navbar-nav">
+		    <td width="101" align="center"><a href="index.html">HOME</a></td>
+		    <td width="102" align="center" class="navbar-nav"><a href="about.html">ABOUT</a></td>
+		    <td width="153" align="center" class="navbar-nav"><a href="contact.html">CONTACT</a></td>
+	      </tr>
+      </table></td>
+		<td rowspan="5">
+			<img src="images/About_12.png" width="20" height="75" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="4">
+			<img src="images/About_13.png" width="3" height="71" alt=""></td>
+		<td width="305" height="27" colspan="2">SEARCH
+      </td>
+		<td rowspan="8">
+			<img src="images/About_15.png" width="2" height="684" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="27" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="3">
+			<img src="images/About_16.png" width="305" height="44" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="27" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<img src="images/About_17.png" width="376" height="17" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/About_18.png" width="212" height="13" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="13" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="images/About_19.png" width="38" height="563" alt=""></td>
+		<td width="954" height="546" colspan="7"><p class="h1">SWIMMING</p>
+		  <p class="h1">&nbsp;</p>
+	    
+
+    {% for athlete in sport.athlete_set.all %}
+        <a href="/athlete_detail/{{athlete.pk}}">{{athlete.name}}</a>  
+
+        <br>
+    {% endfor %}
+	  <p>&nbsp;</p></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="546" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<img src="images/About_21.png" width="954" height="17" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="17" alt=""></td>
+	</tr>
+	<tr>
+		<td width="376" height="40" colspan="2">Copyright © Reyathena 2016. All Rights Reserved 
+
+      </td>
+		<td colspan="6" rowspan="2">
+			<img src="images/About_23.png" width="616" height="50" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="40" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/About_24.png" width="376" height="10" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="10" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/spacer.gif" width="38" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="338" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="20" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="212" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="76" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="3" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="187" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="118" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="2" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="30" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>
